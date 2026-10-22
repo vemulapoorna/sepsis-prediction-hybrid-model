@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated arrays
+data/
+*.csv
+*.npy
+*.npz
+*.memmap
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
